@@ -56,14 +56,15 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground antialiased;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
     background: radial-gradient(
-      ellipse 80% 50% at 50% -20%,
-      hsl(var(--hot-pink) / 0.15),
+      ellipse 80% 60% at 50% -20%,
+      hsl(var(--hot-pink) / 0.35),
       transparent 50%
     ),
     radial-gradient(
-      ellipse 60% 50% at 50% 120%,
-      hsl(var(--electric-indigo) / 0.15),
+      ellipse 70% 60% at 50% 120%,
+      hsl(var(--electric-indigo) / 0.35),
       transparent 50%
     ),
     hsl(var(--background));

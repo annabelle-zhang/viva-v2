@@ -13,7 +13,7 @@ const DesignedAroundYou = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-vivid-violet/5 to-transparent pointer-events-none" />
       
       <div className="max-w-5xl mx-auto relative z-10 animate-fade-in">
-        <h2 className="text-5xl md:text-6xl font-bold mb-8 text-center bg-gradient-to-r from-vivid-violet to-electric-indigo bg-clip-text text-transparent">
+        <h2 className="text-5xl md:text-6xl font-bold mb-8 text-center bg-gradient-to-r from-vivid-violet to-electric-indigo bg-clip-text text-transparent pb-2 leading-tight">
           Designed Around You
         </h2>
         
